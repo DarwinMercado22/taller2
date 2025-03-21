@@ -6,13 +6,12 @@ Esta API está desarrollada en Flask y devuelve una lista de nombres de personas
 
 1. Navega a la carpeta del proyecto:
     ```bash
-    cd apiflask_taller1
+    cd api
     ```
 
 2. Activa el entorno virtual e instalar las librerias:
     ```bash
-    python -m venv 'nombre_del_entorno_virtual' NOTA: En este caso es apiflask_taller1
-    apiflask_taller1\Scripts\activate  # Para Windows
+    python -m venv 'nombre_del_entorno_virtual' NOTA: En este caso es api    apiScripts\activate  # Para Windows
     pip install Flask
     ```
 
@@ -25,11 +24,4 @@ Esta API está desarrollada en Flask y devuelve una lista de nombres de personas
 
 Se ejecuta la ruta del endpoint (EJEMPLO: GET http://127.0.0.1:5000/personas) y nos deberia arrojar una respuestas como la siguiente:
 
-    [
-    "Ramon",
-    "Manuel",
-    "Camilo",
-    "Oscar",
-    "Raul",
-    "Marcos"
-    ]
+
